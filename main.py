@@ -15,8 +15,11 @@ class Application(tk.Frame):
         # height : Frameの高さを設定する。
         # bg : 背景色を設定する。
         # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
-        frame = tk.Frame(self.master, width=400, height=400,
-                         bg="green")
+        # borderwidth : 境界線の幅を指定する。
+        # relief : 境界線のデザインを設定する。
+        # reliefについて : https://cercopes-z.com/Python/stdlib-tkinter-widget-frame-py.html#detail-relief
+        frame = tk.Frame(self.master, width=400, height=400, borderwidth=20,
+                         bg="green", relief=tk.SUNKEN)
 
         # ラベルWidgetを作成する。
         # text : テキスト情報
@@ -24,7 +27,7 @@ class Application(tk.Frame):
         # height : 高さの設定
         # bg : 背景色の設定
         # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
-        # relief : 枠の設定
+        # relief : 境界線の設定
         # reliefについて : https://cercopes-z.com/Python/stdlib-tkinter-widget-frame-py.html#detail-relief
         label = tk.Label(frame, text="1", width=30, height=15,
                          bg="orchid4", relief="raised")
