@@ -1,5 +1,4 @@
-# tkinter-pack
-Tkinterのpackについてのコード
+# tkinter-place
+Tkinterのplaceについてのコード
 
 # 参考記事
-https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
