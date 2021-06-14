@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 class Application(tk.Frame):
     def __init__(self, master=None):
         # Windowの初期設定を行う。
@@ -21,7 +20,7 @@ class Application(tk.Frame):
         # Frameについて : https://kuroro.blog/python/P20XOidA5nh583fYRvxf/
         frame = tk.Frame(self.master, width=400, height=400, borderwidth=20, bg="green", relief=tk.SUNKEN)
 
-        # Windowを親要素として、Frameの配置を行う。
+        # Windowを親要素として、frame Widget(Frame)をどのように配置するのか？
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         frame.pack()
 
