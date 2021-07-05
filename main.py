@@ -12,9 +12,9 @@ class Application(tk.Frame):
         # Windowを親要素として、frame Widget(Frame)を作成する。
         # width : 幅を設定
         # height : 高さを設定
-        # borderwidth : 枠の幅を設定
+        # borderwidth : 枠の大きさを設定
         # bg : 背景色を設定
-        # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
+        # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # relief : 枠のデザインを設定する。
         # reliefについて : https://cercopes-z.com/Python/stdlib-tkinter-widget-frame-py.html#detail-relief
         # Frameについて : https://kuroro.blog/python/P20XOidA5nh583fYRvxf/
@@ -29,7 +29,7 @@ class Application(tk.Frame):
         # width : 幅の設定
         # height : 高さの設定
         # bg : 背景色の設定
-        # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
+        # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label = tk.Label(frame, text="label", width=30, height=15, bg="blue")
 
