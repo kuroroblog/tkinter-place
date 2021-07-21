@@ -37,6 +37,8 @@ class Application(tk.Frame):
         label.place(x=0, y=0)
 
 if __name__ == "__main__":
+    # Windowを生成する。
+    # Windowについて : https://kuroro.blog/python/116yLvTkzH2AUJj8FHLx/
     root = tk.Tk()
     app = Application(master=root)
 
